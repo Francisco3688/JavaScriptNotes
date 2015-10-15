@@ -1,0 +1,64 @@
+Javascript notes:
+
+Variables (container of information) ex: x (could be anything)
+
+Datatype: 
+Numbers (index, double, float ex: x=5, x=5.5, x=5.5555)
+Strings (characters, strings of character letters ex: "Al" 'Al' "5")
+Booleans (true or flase ex: light on=true)
+Array (list of variables ex: var arr=["M", "T", "W", "TH", "F", 2, 5] or
+Var arr= new array (
+arr [0]="M", (starts with index 0)
+arr [1]="T",
+arr [2]="W",
+arr [3]="TH",
+arr [4]="F",
+to use seperate array ex: Console.log (arr[3]) this will select "TH"
+multi-dimentional array: array within the array
+If/Else
+synthax: 
+if (    ) 
+}else (){}
+
+Loops (code that repeats itself until the value is met)
+synthax sample:
+for () only does numbers
+while ()
+for(i=0 <start>;i<5 <end>;i++ <change>){
+} (please note i++ means increase by 1 if it is i-- it decreases by 1)
+while(x<100){ x++ }
+
+Functions (execute the code)
+synthax sample:
+function TurnLightOff() {  
+isLightOn=False; 
+}
+.
+.
+.
+.
+TurnLightOff ()
+
+Logics
+== (5=="5" true)
+!=
+=== (5==="5" flase since one of the fives had qoutations)
+!==
+<
+<=
+>
+>=
+&& (True and True = True; True and False=False; false and false= false)
+|| (True or False=True;) 
+--------------------------------------------------------------------------------------------------------------------------------
+
+JQuery (is a function/method)
+written as: $()
+
+usually to start 
+$(document).ready(function
+(){
+$(element).method(function(){
+}
+
+
